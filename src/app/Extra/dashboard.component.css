@@ -1,0 +1,8 @@
+mat-drawer-container{
+    height: 100vh;
+}
+.main-content{
+    height: 100vh;
+    MARGIN: 0.3rem;
+    background-color: rgb(211, 212, 221);
+}

@@ -1,0 +1,20 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  mat-drawer {
+    width: 180px;
+  }
+  mat-drawer-container {
+    height: 100%;
+    background-color:rgb(218, 222, 244);
+  }
+  app-sidenav{
+    width: fit-content;
+  }
+  mat-drawer {
+    background: rgb(234, 233, 237);
+  }
+  

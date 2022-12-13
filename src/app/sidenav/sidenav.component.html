@@ -1,0 +1,23 @@
+<mat-nav-list >
+    <div class="logo py-4">
+      <img src="assets/images/logo-black.png" Style="width:150px;height:70px;" alt="Company Logo" />
+    </div>
+    <mat-divider ></mat-divider>
+     <!-- <h2 matSubheader class="mt-2">MAIN</h2>  -->
+  <div>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">
+      <mat-icon class="material-icons" >speed</mat-icon> Dashboard
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/home">
+      <mat-icon>toc</mat-icon> Widgets
+    </a>
+    <a mat-list-item routerLink="/metrics"><mat-icon class="material-icons">insights</mat-icon>Metrics </a>
+    <a mat-list-item routerLink="/layouts"> <mat-icon>newspaper</mat-icon> Layouts </a>
+    <mat-divider ></mat-divider>
+    <a mat-list-item> Pre-Build App</a>
+    <a mat-list-item routerLink="task-manager"> <mat-icon>task</mat-icon> Task Manager </a>
+    <a mat-list-item routerLink="mail-app"> <mat-icon>mail</mat-icon> Mail App </a>
+    <a mat-list-item routerLink="contact-app"> <mat-icon>call</mat-icon> Contact App </a>
+    <a mat-list-item routerLink="/chat-app"> <mat-icon>chat</mat-icon> Chat App </a>
+  </div>
+  </mat-nav-list>
